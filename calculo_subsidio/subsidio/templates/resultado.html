@@ -1,0 +1,6 @@
+<!-- subsidio/templates/resultado.html -->
+
+<p>Porcentaje de Avance: {{ porcentaje_avance }}%</p>
+<p>Subsidio Calculado: ${{ pago }}</p>
+
+<a href="{% url 'calcular_subsidio' %}">Calcular otro subsidio</a>
